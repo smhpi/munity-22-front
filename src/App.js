@@ -5,6 +5,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Create from './container/create.component'
 import Edit from './container/edit.component'
 import Index from './container/index.component'
+import Home from './container/home'
+
+import logo from "./images/logo.png";
 
 class App extends Component {
  
@@ -13,7 +16,9 @@ class App extends Component {
       <Router>
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <Link to={'/'} className="navbar-brand">MarketUnity</Link>
+          <Link to={'/'} className="navbar-brand" >
+          <img src={logo} alt="MarketUnity" />
+          </Link>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
             <li className="nav-item">
@@ -28,10 +33,11 @@ class App extends Component {
             </ul>
           </div>
         </nav> <br/>
-        <h2>Integration Platform for Online Marketplaces</h2> <br/>
+        <h2></h2> <br/>
         <Switch>
+            <Route exact path='/' component={ Home } />
             <Route exact path='/create' component={ Create } />
-            <Route path='/edit/:id' component={ Edit } />
+            <Route path='/list/:id' component={ Edit } />
             <Route path='/list' component={ Index } />
         </Switch>
       </div>

@@ -4,42 +4,43 @@ import axios from 'axios';
 export default class Edit extends Component {
   constructor(props) {
     super(props);
-    this.onChangePersonName = this.onChangePersonName.bind(this);
-    this.onChangeBusinessName = this.onChangeBusinessName.bind(this);
-    this.onChangeGstNumber = this.onChangeGstNumber.bind(this);
+    this.onChangeTitle = this.onChangeTitle.bind(this);
+    this.onChangeDescription = this.onChangeDescription.bind(this);
+    this.onChangeId = this.onChangeId.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
 
     this.state = {
       title: '',
-      desc: '',
+      body: '',
       id:''
     }
   }
 
   componentDidMount() {
-      axios.get('http://localhost:3000/todos/'+this.props.match.params.id)
+      axios.get('http://localhost:8080/product/'+this.props.match.params.id)
           .then(response => {
+            
               this.setState({ 
-                title: response.data.title, 
-                desc: response.data.desc,
-                id: response.data.id });
+                title: response.data[0].title, 
+                body: response.data[0].body,
+                id: response.data[0].id });
           })
           .catch(function (error) {
               console.log(error);
           })
     }
 
-  onChangePersonName(e) {
+  onChangeTitle(e) {
     this.setState({
       title: e.target.value
     });
   }
-  onChangeBusinessName(e) {
+  onChangeDescription(e) {
     this.setState({
-      desc: e.target.value
+      body: e.target.value
     })  
   }
-  onChangeGstNumber(e) {
+  onChangeId(e) {
     this.setState({
       id: e.target.value
     })
@@ -49,19 +50,19 @@ export default class Edit extends Component {
     e.preventDefault();
     const obj = {
       title: this.state.title,
-      desc: this.state.desc,
+      body: this.state.body,
       id: this.state.id
     };
-    axios.patch('http://localhost:3000/todos/'+this.props.match.params.id, obj)
+    axios.put('http://localhost:8080/product/'+this.props.match.params.id, obj)
         .then(res => console.log(res.data));
     
-    this.props.history.push('/index');
+    this.props.history.push('/list');
   }
  
   render() {
     return (
         <div style={{ marginTop: 10 }}>
-            <h3 align="center">Update Business</h3>
+            <h3 align="center">Update Product</h3>
             <form onSubmit={this.onSubmit}>
                 <div className="form-group">
                     <label>Title:  </label>
@@ -69,15 +70,15 @@ export default class Edit extends Component {
                       type="text" 
                       className="form-control" 
                       value={this.state.title}
-                      onChange={this.onChangePersonName}
+                      onChange={this.onChangeTitle}
                       />
                 </div>
                 <div className="form-group">
                     <label>Description: </label>
                     <input type="text" 
                       className="form-control"
-                      value={this.state.desc}
-                      onChange={this.onChangeBusinessName}
+                      value={this.state.body}
+                      onChange={this.onChangeDescription}
                       />
                 </div>
                 <div className="form-group">
@@ -85,12 +86,12 @@ export default class Edit extends Component {
                     <input type="text" 
                       className="form-control"
                       value={this.state.id}
-                      onChange={this.onChangeGstNumber}
+                      onChange={this.onChangeId}
                       />
                 </div>
                 <div className="form-group">
                     <input type="submit" 
-                      value="Update Business" 
+                      value="Update Product" 
                       className="btn btn-primary"/>
                 </div>
             </form>

@@ -4,27 +4,27 @@ import axios from 'axios';
 export default class Create extends Component {
     constructor(props){
         super(props);
-         this.onChangePersonName = this.onChangePersonName.bind(this);
-            this.onChangeBusinessName = this.onChangeBusinessName.bind(this);
-            this.onChangeGstNumber = this.onChangeGstNumber.bind(this);
+         this.onChangeTitle = this.onChangeTitle.bind(this);
+            this.onChangeDescription = this.onChangeDescription.bind(this);
+            this.onChangeId = this.onChangeId.bind(this);
             this.onSubmit = this.onSubmit.bind(this);
             this.state = {
               title: '',
-              desc: '',
+              body: '',
               id:''
           }
         }
-          onChangePersonName(e) {
+          onChangeTitle(e) {
             this.setState({
               title: e.target.value
             });
           }
-          onChangeBusinessName(e) {
+          onChangeDescription(e) {
             this.setState({
-              desc: e.target.value
+              body: e.target.value
             })  
           }
-          onChangeGstNumber(e) {
+          onChangeId(e) {
             this.setState({
               id: e.target.value
             })
@@ -33,53 +33,53 @@ export default class Create extends Component {
             e.preventDefault();
             const obj = {
                 title: this.state.title,
-                desc: this.state.desc,
+                body: this.state.body,
                 id: this.state.id
             };
             let config = {
                 headers: { 'Content-Type': 'application/json' }
               };
-            axios.post('http://localhost:3000/todos', obj, config)
+            axios.post('http://localhost:8080/product', obj, config)
             .then(res => console.log(res.data));
             
             this.setState({
               title: '',
-              desc: '',
+              body: '',
               id: ''
             })
           }
     render() {
         return (
             <div style={{ marginTop: 10 }}>
-            <h3>Add New Business</h3>
+            <h3>Add New Product</h3>
             <form onSubmit={this.onSubmit}>
                 <div className="form-group">
-                    <label>Person Name:  </label>
+                    <label>Title:  </label>
                     <input 
                       type="text" 
                       className="form-control" 
                       value={this.state.title}
-                      onChange={this.onChangePersonName}
+                      onChange={this.onChangeTitle}
                       />
                 </div>
                 <div className="form-group">
-                    <label>Business Name: </label>
+                    <label>Description: </label>
                     <input type="text" 
                       className="form-control"
-                      value={this.state.desc}
-                      onChange={this.onChangeBusinessName}
+                      value={this.state.body}
+                      onChange={this.onChangeDescription}
                       />
                 </div>
                 <div className="form-group">
-                    <label>GST Number: </label>
+                    <label>ID: </label>
                     <input type="text" 
                       className="form-control"
                       value={this.state.id}
-                      onChange={this.onChangeGstNumber}
+                      onChange={this.onChangeId}
                       />
                 </div>
                 <div className="form-group">
-                    <input type="submit" value="Register Business" className="btn btn-primary"/>
+                    <input type="submit" value="Add Product" className="btn btn-primary"/>
                 </div>
             </form>
         </div>
