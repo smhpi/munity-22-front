@@ -18,7 +18,7 @@ export default class Edit extends Component {
 
   componentDidMount() {
     axios
-      .get("http://localhost:8080/product/" + this.props.match.params.id)
+      .get("/product/" + this.props.match.params.id)
       .then(response => {
         console.log(response);
         this.setState({
@@ -56,7 +56,7 @@ export default class Edit extends Component {
       id: this.state.id
     };
     axios
-      .put("http://localhost:8080/product/" + this.props.match.params.id, obj)
+      .put("/product/" + this.props.match.params.id, obj)
       .then(res => console.log(res.data));
 
     this.props.history.push("/list");

@@ -11,8 +11,9 @@ class BbList extends Component {
   }
 
   componentDidMount() {
-    const url = "../lib/bbresp.json";
-    //const url ="https://marketplace.bestbuy.ca/api/offers?api_key=7b363e5a-ea5c-4cc0-b361-32eebbbe42ac&max=100";
+    //const url = "../lib/bbresp.json";
+    const url =
+      "https://marketplace.bestbuy.ca/api/offers?api_key=7b363e5a-ea5c-4cc0-b361-32eebbbe42ac&max=100";
     axios({
       method: "get",
       url: url,

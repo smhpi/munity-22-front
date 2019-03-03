@@ -9,7 +9,7 @@ class TableRow extends Component {
   }
   delete() {
     axios
-      .delete("http://localhost:8080/product/" + this.props.obj.id)
+      .delete("/product/" + this.props.obj.id)
       .then(console.log("Deleted"))
       .then(alert("Product Deleted"))
       .catch(err => console.log(err));

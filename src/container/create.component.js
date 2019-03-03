@@ -39,9 +39,7 @@ export default class Create extends Component {
     let config = {
       headers: { "Content-Type": "application/json" }
     };
-    axios
-      .post("http://localhost:8080/product", obj, config)
-      .then(res => console.log(res.data));
+    axios.post("/product", obj, config).then(res => console.log(res.data));
 
     this.setState({
       title: "",
