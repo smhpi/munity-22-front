@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import axios from 'axios';
+import React, { Component } from "react";
+import axios from "axios";
 
 export default class Edit extends Component {
   constructor(props) {
@@ -10,25 +10,27 @@ export default class Edit extends Component {
     this.onSubmit = this.onSubmit.bind(this);
 
     this.state = {
-      title: '',
-      body: '',
-      id:''
-    }
+      title: "",
+      body: "",
+      id: ""
+    };
   }
 
   componentDidMount() {
-      axios.get('http://localhost:8080/product/'+this.props.match.params.id)
-          .then(response => {
-            
-              this.setState({ 
-                title: response.data[0].title, 
-                body: response.data[0].body,
-                id: response.data[0].id });
-          })
-          .catch(function (error) {
-              console.log(error);
-          })
-    }
+    axios
+      .get("http://localhost:8080/product/" + this.props.match.params.id)
+      .then(response => {
+        console.log(response);
+        this.setState({
+          title: response.data[0].title,
+          body: response.data[0].body,
+          id: response.data[0].id
+        });
+      })
+      .catch(function(error) {
+        console.log(error);
+      });
+  }
 
   onChangeTitle(e) {
     this.setState({
@@ -38,12 +40,12 @@ export default class Edit extends Component {
   onChangeDescription(e) {
     this.setState({
       body: e.target.value
-    })  
+    });
   }
   onChangeId(e) {
     this.setState({
       id: e.target.value
-    })
+    });
   }
 
   onSubmit(e) {
@@ -53,49 +55,54 @@ export default class Edit extends Component {
       body: this.state.body,
       id: this.state.id
     };
-    axios.put('http://localhost:8080/product/'+this.props.match.params.id, obj)
-        .then(res => console.log(res.data));
-    
-    this.props.history.push('/list');
+    axios
+      .put("http://localhost:8080/product/" + this.props.match.params.id, obj)
+      .then(res => console.log(res.data));
+
+    this.props.history.push("/list");
   }
- 
+
   render() {
     return (
-        <div style={{ marginTop: 10 }}>
-            <h3 align="center">Update Product</h3>
-            <form onSubmit={this.onSubmit}>
-                <div className="form-group">
-                    <label>Title:  </label>
-                    <input 
-                      type="text" 
-                      className="form-control" 
-                      value={this.state.title}
-                      onChange={this.onChangeTitle}
-                      />
-                </div>
-                <div className="form-group">
-                    <label>Description: </label>
-                    <input type="text" 
-                      className="form-control"
-                      value={this.state.body}
-                      onChange={this.onChangeDescription}
-                      />
-                </div>
-                <div className="form-group">
-                    <label>ID: </label>
-                    <input type="text" 
-                      className="form-control"
-                      value={this.state.id}
-                      onChange={this.onChangeId}
-                      />
-                </div>
-                <div className="form-group">
-                    <input type="submit" 
-                      value="Update Product" 
-                      className="btn btn-primary"/>
-                </div>
-            </form>
-        </div>
-    )
+      <div style={{ marginTop: 10 }}>
+        <h3 align="center">Update Product</h3>
+        <form onSubmit={this.onSubmit}>
+          <div className="form-group">
+            <label>Title: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.title}
+              onChange={this.onChangeTitle}
+            />
+          </div>
+          <div className="form-group">
+            <label>Description: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.body}
+              onChange={this.onChangeDescription}
+            />
+          </div>
+          <div className="form-group">
+            <label>ID: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.id}
+              onChange={this.onChangeId}
+            />
+          </div>
+          <div className="form-group">
+            <input
+              type="submit"
+              value="Update Product"
+              className="btn btn-primary"
+            />
+          </div>
+        </form>
+      </div>
+    );
   }
 }

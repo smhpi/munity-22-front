@@ -1,0 +1,1229 @@
+{
+  "offers" : [ {
+    "active" : true,
+    "all_prices" : [ {
+      "channel_code" : null,
+      "discount_end_date" : "2019-03-01T07:59:59Z",
+      "discount_start_date" : "2019-02-07T08:00:00Z",
+      "price" : 997.00,
+      "unit_discount_price" : 997.00,
+      "unit_origin_price" : 1246.00,
+      "volume_prices" : [ {
+        "price" : 997.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 997.00,
+        "unit_origin_price" : 1246.00
+      } ]
+    } ],
+    "allow_quote_requests" : false,
+    "applicable_pricing" : {
+      "channel_code" : null,
+      "discount_end_date" : "2019-03-01T07:59:59Z",
+      "discount_start_date" : "2019-02-07T08:00:00Z",
+      "price" : 997.00,
+      "unit_discount_price" : 997.00,
+      "unit_origin_price" : 1246.00,
+      "volume_prices" : [ {
+        "price" : 997.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 997.00,
+        "unit_origin_price" : 1246.00
+      } ]
+    },
+    "category_code" : "CAT_1002",
+    "category_label" : "Laptops",
+    "channels" : [ "INIT" ],
+    "currency_iso_code" : "CAD",
+    "description" : null,
+    "discount" : {
+      "discount_price" : 997.00,
+      "end_date" : "2019-03-01T07:59:59Z",
+      "origin_price" : 1246.00,
+      "ranges" : [ {
+        "price" : 997.00,
+        "quantity_threshold" : 1
+      } ],
+      "start_date" : "2019-02-07T08:00:00Z"
+    },
+    "logistic_class" : {
+      "code" : "SMALL",
+      "label" : "Small Box (0.5 - 3.0kg/1.1 to 6.6Lbs)"
+    },
+    "min_quantity_alert" : 20,
+    "min_shipping_price" : 0.00,
+    "min_shipping_price_additional" : 0.00,
+    "min_shipping_type" : "M",
+    "min_shipping_zone" : "BCLocal",
+    "offer_additional_fields" : [ {
+      "code" : "manufacturer-warranty",
+      "type" : "REGEX",
+      "value" : "1095"
+    } ],
+    "offer_id" : 5533590,
+    "price" : 997.00,
+    "price_additional_info" : null,
+    "product_references" : [ {
+      "reference" : "628504782019",
+      "reference_type" : "UPC-A"
+    } ],
+    "product_sku" : "13305642",
+    "product_title" : "Lenovo ThinkPad E580, 15.6\", 7th Gen Intel Core i5, 12GB RAM, 250GB SSD Storage,Windows 10 pro",
+    "quantity" : 72,
+    "shop_sku" : "CSDL18001",
+    "state_code" : "11",
+    "total_price" : 997.00
+  }, {
+    "active" : true,
+    "all_prices" : [ {
+      "channel_code" : null,
+      "discount_end_date" : "2019-03-01T07:59:59Z",
+      "discount_start_date" : "2019-02-07T08:00:00Z",
+      "price" : 1197.00,
+      "unit_discount_price" : 1197.00,
+      "unit_origin_price" : 1407.00,
+      "volume_prices" : [ {
+        "price" : 1197.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 1197.00,
+        "unit_origin_price" : 1407.00
+      } ]
+    } ],
+    "allow_quote_requests" : false,
+    "applicable_pricing" : {
+      "channel_code" : null,
+      "discount_end_date" : "2019-03-01T07:59:59Z",
+      "discount_start_date" : "2019-02-07T08:00:00Z",
+      "price" : 1197.00,
+      "unit_discount_price" : 1197.00,
+      "unit_origin_price" : 1407.00,
+      "volume_prices" : [ {
+        "price" : 1197.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 1197.00,
+        "unit_origin_price" : 1407.00
+      } ]
+    },
+    "category_code" : "CAT_1002",
+    "category_label" : "Laptops",
+    "channels" : [ "INIT" ],
+    "currency_iso_code" : "CAD",
+    "description" : null,
+    "discount" : {
+      "discount_price" : 1197.00,
+      "end_date" : "2019-03-01T07:59:59Z",
+      "origin_price" : 1407.00,
+      "ranges" : [ {
+        "price" : 1197.00,
+        "quantity_threshold" : 1
+      } ],
+      "start_date" : "2019-02-07T08:00:00Z"
+    },
+    "logistic_class" : {
+      "code" : "SMALL",
+      "label" : "Small Box (0.5 - 3.0kg/1.1 to 6.6Lbs)"
+    },
+    "min_shipping_price" : 0.00,
+    "min_shipping_price_additional" : 0.00,
+    "min_shipping_type" : "M",
+    "min_shipping_zone" : "BCLocal",
+    "offer_additional_fields" : [ {
+      "code" : "manufacturer-warranty",
+      "type" : "REGEX",
+      "value" : "1095"
+    } ],
+    "offer_id" : 5533591,
+    "price" : 1197.00,
+    "price_additional_info" : null,
+    "product_references" : [ {
+      "reference" : "628504782026",
+      "reference_type" : "UPC-A"
+    } ],
+    "product_sku" : "13305643",
+    "product_title" : "Lenovo ThinkPad E580, 15.6\", 7th Gen Intel Core i5, 16GB RAM, 500GB SSD Storage,Windows 10 pro",
+    "quantity" : 15,
+    "shop_sku" : "CSDL18002",
+    "state_code" : "11",
+    "total_price" : 1197.00
+  }, {
+    "active" : true,
+    "all_prices" : [ {
+      "channel_code" : null,
+      "discount_end_date" : "2019-03-01T07:59:59Z",
+      "discount_start_date" : "2019-02-07T08:00:00Z",
+      "price" : 1397.00,
+      "unit_discount_price" : 1397.00,
+      "unit_origin_price" : 1733.00,
+      "volume_prices" : [ {
+        "price" : 1397.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 1397.00,
+        "unit_origin_price" : 1733.00
+      } ]
+    } ],
+    "allow_quote_requests" : false,
+    "applicable_pricing" : {
+      "channel_code" : null,
+      "discount_end_date" : "2019-03-01T07:59:59Z",
+      "discount_start_date" : "2019-02-07T08:00:00Z",
+      "price" : 1397.00,
+      "unit_discount_price" : 1397.00,
+      "unit_origin_price" : 1733.00,
+      "volume_prices" : [ {
+        "price" : 1397.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 1397.00,
+        "unit_origin_price" : 1733.00
+      } ]
+    },
+    "category_code" : "CAT_1002",
+    "category_label" : "Laptops",
+    "channels" : [ "INIT" ],
+    "currency_iso_code" : "CAD",
+    "description" : null,
+    "discount" : {
+      "discount_price" : 1397.00,
+      "end_date" : "2019-03-01T07:59:59Z",
+      "origin_price" : 1733.00,
+      "ranges" : [ {
+        "price" : 1397.00,
+        "quantity_threshold" : 1
+      } ],
+      "start_date" : "2019-02-07T08:00:00Z"
+    },
+    "logistic_class" : {
+      "code" : "SMALL",
+      "label" : "Small Box (0.5 - 3.0kg/1.1 to 6.6Lbs)"
+    },
+    "min_shipping_price" : 0.00,
+    "min_shipping_price_additional" : 0.00,
+    "min_shipping_type" : "M",
+    "min_shipping_zone" : "BCLocal",
+    "offer_additional_fields" : [ {
+      "code" : "manufacturer-warranty",
+      "type" : "REGEX",
+      "value" : "1095"
+    } ],
+    "offer_id" : 5916991,
+    "price" : 1397.00,
+    "price_additional_info" : null,
+    "product_references" : [ {
+      "reference" : "628504782415",
+      "reference_type" : "UPC-A"
+    } ],
+    "product_sku" : "13370485",
+    "product_title" : "Lenovo ThinkPad E580, Full-HD 15.6\" IPS, 8th Gen Core i5, 16GB RAM, 250GB SSD,Windows 10pro",
+    "quantity" : 78,
+    "shop_sku" : "CSDL18041",
+    "state_code" : "11",
+    "total_price" : 1397.00
+  }, {
+    "active" : true,
+    "all_prices" : [ {
+      "channel_code" : null,
+      "discount_end_date" : "2019-03-01T07:59:59Z",
+      "discount_start_date" : "2019-02-07T08:00:00Z",
+      "price" : 1497.00,
+      "unit_discount_price" : 1497.00,
+      "unit_origin_price" : 1873.00,
+      "volume_prices" : [ {
+        "price" : 1497.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 1497.00,
+        "unit_origin_price" : 1873.00
+      } ]
+    } ],
+    "allow_quote_requests" : false,
+    "applicable_pricing" : {
+      "channel_code" : null,
+      "discount_end_date" : "2019-03-01T07:59:59Z",
+      "discount_start_date" : "2019-02-07T08:00:00Z",
+      "price" : 1497.00,
+      "unit_discount_price" : 1497.00,
+      "unit_origin_price" : 1873.00,
+      "volume_prices" : [ {
+        "price" : 1497.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 1497.00,
+        "unit_origin_price" : 1873.00
+      } ]
+    },
+    "category_code" : "CAT_1002",
+    "category_label" : "Laptops",
+    "channels" : [ "INIT" ],
+    "currency_iso_code" : "CAD",
+    "description" : null,
+    "discount" : {
+      "discount_price" : 1497.00,
+      "end_date" : "2019-03-01T07:59:59Z",
+      "origin_price" : 1873.00,
+      "ranges" : [ {
+        "price" : 1497.00,
+        "quantity_threshold" : 1
+      } ],
+      "start_date" : "2019-02-07T08:00:00Z"
+    },
+    "logistic_class" : {
+      "code" : "SMALL",
+      "label" : "Small Box (0.5 - 3.0kg/1.1 to 6.6Lbs)"
+    },
+    "min_shipping_price" : 0.00,
+    "min_shipping_price_additional" : 0.00,
+    "min_shipping_type" : "M",
+    "min_shipping_zone" : "BCLocal",
+    "offer_additional_fields" : [ {
+      "code" : "manufacturer-warranty",
+      "type" : "REGEX",
+      "value" : "1095"
+    } ],
+    "offer_id" : 5916990,
+    "price" : 1497.00,
+    "price_additional_info" : null,
+    "product_references" : [ {
+      "reference" : "628504782422",
+      "reference_type" : "UPC-A"
+    } ],
+    "product_sku" : "13370486",
+    "product_title" : "Lenovo ThinkPad E580, Full-HD 15.6\" IPS, 8th Gen Core i5, 16GB RAM, 500GB SSD,Windows 10pro",
+    "quantity" : 77,
+    "shop_sku" : "CSDL18042",
+    "state_code" : "11",
+    "total_price" : 1497.00
+  }, {
+    "active" : true,
+    "all_prices" : [ {
+      "channel_code" : null,
+      "discount_end_date" : "2019-03-01T07:59:59Z",
+      "discount_start_date" : "2019-02-07T08:00:00Z",
+      "price" : 1497.00,
+      "unit_discount_price" : 1497.00,
+      "unit_origin_price" : 1827.00,
+      "volume_prices" : [ {
+        "price" : 1497.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 1497.00,
+        "unit_origin_price" : 1827.00
+      } ]
+    } ],
+    "allow_quote_requests" : false,
+    "applicable_pricing" : {
+      "channel_code" : null,
+      "discount_end_date" : "2019-03-01T07:59:59Z",
+      "discount_start_date" : "2019-02-07T08:00:00Z",
+      "price" : 1497.00,
+      "unit_discount_price" : 1497.00,
+      "unit_origin_price" : 1827.00,
+      "volume_prices" : [ {
+        "price" : 1497.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 1497.00,
+        "unit_origin_price" : 1827.00
+      } ]
+    },
+    "category_code" : "CAT_1002",
+    "category_label" : "Laptops",
+    "channels" : [ "INIT" ],
+    "currency_iso_code" : "CAD",
+    "description" : null,
+    "discount" : {
+      "discount_price" : 1497.00,
+      "end_date" : "2019-03-01T07:59:59Z",
+      "origin_price" : 1827.00,
+      "ranges" : [ {
+        "price" : 1497.00,
+        "quantity_threshold" : 1
+      } ],
+      "start_date" : "2019-02-07T08:00:00Z"
+    },
+    "logistic_class" : {
+      "code" : "SMALL",
+      "label" : "Small Box (0.5 - 3.0kg/1.1 to 6.6Lbs)"
+    },
+    "min_shipping_price" : 0.00,
+    "min_shipping_price_additional" : 0.00,
+    "min_shipping_type" : "M",
+    "min_shipping_zone" : "BCLocal",
+    "offer_additional_fields" : [ {
+      "code" : "manufacturer-warranty",
+      "type" : "REGEX",
+      "value" : "1095"
+    } ],
+    "offer_id" : 5918158,
+    "price" : 1497.00,
+    "price_additional_info" : null,
+    "product_references" : [ {
+      "reference" : "628504782439",
+      "reference_type" : "UPC-A"
+    } ],
+    "product_sku" : "13370630",
+    "product_title" : "Lenovo ThinkPad E580 Silver,Full-HD 15.6\", 8th Gen Core i7, 16GB DDR4, 256GB SSD, Win10 Pro",
+    "quantity" : 74,
+    "shop_sku" : "CSDL18043",
+    "state_code" : "11",
+    "total_price" : 1497.00
+  }, {
+    "active" : true,
+    "all_prices" : [ {
+      "channel_code" : null,
+      "discount_end_date" : "2019-02-19T07:59:59Z",
+      "discount_start_date" : "2019-02-07T08:00:00Z",
+      "price" : 1732.00,
+      "unit_discount_price" : null,
+      "unit_origin_price" : 1732.00,
+      "volume_prices" : [ {
+        "price" : 1732.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 1427.00,
+        "unit_origin_price" : 1732.00
+      } ]
+    } ],
+    "allow_quote_requests" : false,
+    "applicable_pricing" : {
+      "channel_code" : null,
+      "discount_end_date" : "2019-02-19T07:59:59Z",
+      "discount_start_date" : "2019-02-07T08:00:00Z",
+      "price" : 1732.00,
+      "unit_discount_price" : null,
+      "unit_origin_price" : 1732.00,
+      "volume_prices" : [ {
+        "price" : 1732.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 1427.00,
+        "unit_origin_price" : 1732.00
+      } ]
+    },
+    "category_code" : "CAT_1002",
+    "category_label" : "Laptops",
+    "channels" : [ "INIT" ],
+    "currency_iso_code" : "CAD",
+    "description" : null,
+    "discount" : {
+      "discount_price" : 1427.00,
+      "end_date" : "2019-02-19T07:59:59Z",
+      "origin_price" : 1732.00,
+      "ranges" : [ {
+        "price" : 1427.00,
+        "quantity_threshold" : 1
+      } ],
+      "start_date" : "2019-02-07T08:00:00Z"
+    },
+    "logistic_class" : {
+      "code" : "SMALL",
+      "label" : "Small Box (0.5 - 3.0kg/1.1 to 6.6Lbs)"
+    },
+    "min_shipping_price" : 0.00,
+    "min_shipping_price_additional" : 0.00,
+    "min_shipping_type" : "M",
+    "min_shipping_zone" : "BCLocal",
+    "offer_additional_fields" : [ {
+      "code" : "manufacturer-warranty",
+      "type" : "REGEX",
+      "value" : "1095"
+    } ],
+    "offer_id" : 5659726,
+    "price" : 1732.00,
+    "price_additional_info" : null,
+    "product_references" : [ {
+      "reference" : "628504782040",
+      "reference_type" : "UPC-A"
+    } ],
+    "product_sku" : "13329755",
+    "product_title" : "Lenovo ThinkPad T480, 14\", 8th Gen Core i5 Quad Core, 8GB RAM, 500GB SSD, Windows 10 Pro",
+    "quantity" : 80,
+    "shop_sku" : "CSDL18004",
+    "state_code" : "11",
+    "total_price" : 1732.00
+  }, {
+    "active" : true,
+    "all_prices" : [ {
+      "channel_code" : null,
+      "discount_end_date" : "2019-03-01T07:59:59Z",
+      "discount_start_date" : "2019-02-07T08:00:00Z",
+      "price" : 1737.00,
+      "unit_discount_price" : 1737.00,
+      "unit_origin_price" : 2114.00,
+      "volume_prices" : [ {
+        "price" : 1737.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 1737.00,
+        "unit_origin_price" : 2114.00
+      } ]
+    } ],
+    "allow_quote_requests" : false,
+    "applicable_pricing" : {
+      "channel_code" : null,
+      "discount_end_date" : "2019-03-01T07:59:59Z",
+      "discount_start_date" : "2019-02-07T08:00:00Z",
+      "price" : 1737.00,
+      "unit_discount_price" : 1737.00,
+      "unit_origin_price" : 2114.00,
+      "volume_prices" : [ {
+        "price" : 1737.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 1737.00,
+        "unit_origin_price" : 2114.00
+      } ]
+    },
+    "category_code" : "CAT_1002",
+    "category_label" : "Laptops",
+    "channels" : [ "INIT" ],
+    "currency_iso_code" : "CAD",
+    "description" : null,
+    "discount" : {
+      "discount_price" : 1737.00,
+      "end_date" : "2019-03-01T07:59:59Z",
+      "origin_price" : 2114.00,
+      "ranges" : [ {
+        "price" : 1737.00,
+        "quantity_threshold" : 1
+      } ],
+      "start_date" : "2019-02-07T08:00:00Z"
+    },
+    "logistic_class" : {
+      "code" : "SMALL",
+      "label" : "Small Box (0.5 - 3.0kg/1.1 to 6.6Lbs)"
+    },
+    "min_shipping_price" : 0.00,
+    "min_shipping_price_additional" : 0.00,
+    "min_shipping_type" : "M",
+    "min_shipping_zone" : "BCLocal",
+    "offer_additional_fields" : [ {
+      "code" : "manufacturer-warranty",
+      "type" : "REGEX",
+      "value" : "1095"
+    } ],
+    "offer_id" : 5795577,
+    "price" : 1737.00,
+    "price_additional_info" : null,
+    "product_references" : [ {
+      "reference" : "628504782323",
+      "reference_type" : "UPC-A"
+    } ],
+    "product_sku" : "13360628",
+    "product_title" : "Lenovo ThinkPad E580 Silver,Full-HD 15.6\", 8th Gen Core i7, 16GB DDR4, 1TB SSD, Win10 Pro",
+    "quantity" : 39,
+    "shop_sku" : "CSDL18032",
+    "state_code" : "11",
+    "total_price" : 1737.00
+  }, {
+    "active" : true,
+    "all_prices" : [ {
+      "channel_code" : null,
+      "discount_end_date" : "2019-02-18T07:59:59Z",
+      "discount_start_date" : "2019-02-07T08:00:00Z",
+      "price" : 1900.00,
+      "unit_discount_price" : null,
+      "unit_origin_price" : 1900.00,
+      "volume_prices" : [ {
+        "price" : 1900.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 1527.00,
+        "unit_origin_price" : 1900.00
+      } ]
+    } ],
+    "allow_quote_requests" : false,
+    "applicable_pricing" : {
+      "channel_code" : null,
+      "discount_end_date" : "2019-02-18T07:59:59Z",
+      "discount_start_date" : "2019-02-07T08:00:00Z",
+      "price" : 1900.00,
+      "unit_discount_price" : null,
+      "unit_origin_price" : 1900.00,
+      "volume_prices" : [ {
+        "price" : 1900.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 1527.00,
+        "unit_origin_price" : 1900.00
+      } ]
+    },
+    "category_code" : "CAT_1002",
+    "category_label" : "Laptops",
+    "channels" : [ "INIT" ],
+    "currency_iso_code" : "CAD",
+    "description" : null,
+    "discount" : {
+      "discount_price" : 1527.00,
+      "end_date" : "2019-02-18T07:59:59Z",
+      "origin_price" : 1900.00,
+      "ranges" : [ {
+        "price" : 1527.00,
+        "quantity_threshold" : 1
+      } ],
+      "start_date" : "2019-02-07T08:00:00Z"
+    },
+    "logistic_class" : {
+      "code" : "SMALL",
+      "label" : "Small Box (0.5 - 3.0kg/1.1 to 6.6Lbs)"
+    },
+    "min_shipping_price" : 0.00,
+    "min_shipping_price_additional" : 0.00,
+    "min_shipping_type" : "M",
+    "min_shipping_zone" : "BCLocal",
+    "offer_additional_fields" : [ {
+      "code" : "manufacturer-warranty",
+      "type" : "REGEX",
+      "value" : "1095"
+    } ],
+    "offer_id" : 5659727,
+    "price" : 1900.00,
+    "price_additional_info" : null,
+    "product_references" : [ {
+      "reference" : "628504782057",
+      "reference_type" : "UPC-A"
+    } ],
+    "product_sku" : "13329757",
+    "product_title" : "Lenovo ThinkPad T480, 14\", 8th Gen Core i5 Quad Core, 16GB RAM, 500GB SSD, Windows 10 Pro",
+    "quantity" : 80,
+    "shop_sku" : "CSDL18005",
+    "state_code" : "11",
+    "total_price" : 1900.00
+  }, {
+    "active" : true,
+    "all_prices" : [ {
+      "channel_code" : null,
+      "discount_end_date" : "2019-03-01T07:59:59Z",
+      "discount_start_date" : "2019-02-07T08:00:00Z",
+      "price" : 1987.00,
+      "unit_discount_price" : 1987.00,
+      "unit_origin_price" : 2471.00,
+      "volume_prices" : [ {
+        "price" : 1987.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 1987.00,
+        "unit_origin_price" : 2471.00
+      } ]
+    } ],
+    "allow_quote_requests" : false,
+    "applicable_pricing" : {
+      "channel_code" : null,
+      "discount_end_date" : "2019-03-01T07:59:59Z",
+      "discount_start_date" : "2019-02-07T08:00:00Z",
+      "price" : 1987.00,
+      "unit_discount_price" : 1987.00,
+      "unit_origin_price" : 2471.00,
+      "volume_prices" : [ {
+        "price" : 1987.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 1987.00,
+        "unit_origin_price" : 2471.00
+      } ]
+    },
+    "category_code" : "CAT_1002",
+    "category_label" : "Laptops",
+    "channels" : [ "INIT" ],
+    "currency_iso_code" : "CAD",
+    "description" : null,
+    "discount" : {
+      "discount_price" : 1987.00,
+      "end_date" : "2019-03-01T07:59:59Z",
+      "origin_price" : 2471.00,
+      "ranges" : [ {
+        "price" : 1987.00,
+        "quantity_threshold" : 1
+      } ],
+      "start_date" : "2019-02-07T08:00:00Z"
+    },
+    "logistic_class" : {
+      "code" : "SMALL",
+      "label" : "Small Box (0.5 - 3.0kg/1.1 to 6.6Lbs)"
+    },
+    "min_shipping_price" : 0.00,
+    "min_shipping_price_additional" : 0.00,
+    "min_shipping_type" : "M",
+    "min_shipping_zone" : "BCLocal",
+    "offer_additional_fields" : [ {
+      "code" : "manufacturer-warranty",
+      "type" : "REGEX",
+      "value" : "1095"
+    } ],
+    "offer_id" : 5657664,
+    "price" : 1987.00,
+    "price_additional_info" : null,
+    "product_references" : [ {
+      "reference" : "628504782071",
+      "reference_type" : "UPC-A"
+    } ],
+    "product_sku" : "13329648",
+    "product_title" : "Lenovo ThinkPad T580, 15.6\" Full-HD, 8th Gen Core i5, 16GB DDR4, 500GB SSD, Windows 10pro",
+    "quantity" : 80,
+    "shop_sku" : "CSDL18007",
+    "state_code" : "11",
+    "total_price" : 1987.00
+  }, {
+    "active" : true,
+    "all_prices" : [ {
+      "channel_code" : null,
+      "discount_end_date" : "2019-02-18T07:59:59Z",
+      "discount_start_date" : "2019-02-07T08:00:00Z",
+      "price" : 2040.00,
+      "unit_discount_price" : null,
+      "unit_origin_price" : 2040.00,
+      "volume_prices" : [ {
+        "price" : 2040.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 1677.00,
+        "unit_origin_price" : 2040.00
+      } ]
+    } ],
+    "allow_quote_requests" : false,
+    "applicable_pricing" : {
+      "channel_code" : null,
+      "discount_end_date" : "2019-02-18T07:59:59Z",
+      "discount_start_date" : "2019-02-07T08:00:00Z",
+      "price" : 2040.00,
+      "unit_discount_price" : null,
+      "unit_origin_price" : 2040.00,
+      "volume_prices" : [ {
+        "price" : 2040.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 1677.00,
+        "unit_origin_price" : 2040.00
+      } ]
+    },
+    "category_code" : "CAT_1002",
+    "category_label" : "Laptops",
+    "channels" : [ "INIT" ],
+    "currency_iso_code" : "CAD",
+    "description" : null,
+    "discount" : {
+      "discount_price" : 1677.00,
+      "end_date" : "2019-02-18T07:59:59Z",
+      "origin_price" : 2040.00,
+      "ranges" : [ {
+        "price" : 1677.00,
+        "quantity_threshold" : 1
+      } ],
+      "start_date" : "2019-02-07T08:00:00Z"
+    },
+    "logistic_class" : {
+      "code" : "SMALL",
+      "label" : "Small Box (0.5 - 3.0kg/1.1 to 6.6Lbs)"
+    },
+    "min_shipping_price" : 0.00,
+    "min_shipping_price_additional" : 0.00,
+    "min_shipping_type" : "M",
+    "min_shipping_zone" : "BCLocal",
+    "offer_additional_fields" : [ {
+      "code" : "manufacturer-warranty",
+      "type" : "REGEX",
+      "value" : "1095"
+    } ],
+    "offer_id" : 5659729,
+    "price" : 2040.00,
+    "price_additional_info" : null,
+    "product_references" : [ {
+      "reference" : "628504782064",
+      "reference_type" : "UPC-A"
+    } ],
+    "product_sku" : "13329760",
+    "product_title" : "Lenovo ThinkPad T480, 14\", 8th Gen Core i5 Quad Core, 16GB RAM, 1 TB SSD, Windows 10 Pro",
+    "quantity" : 80,
+    "shop_sku" : "CSDL18006",
+    "state_code" : "11",
+    "total_price" : 2040.00
+  }, {
+    "active" : false,
+    "all_prices" : [ {
+      "channel_code" : null,
+      "discount_end_date" : "2019-02-07T07:59:59Z",
+      "discount_start_date" : "2019-02-02T08:00:00Z",
+      "price" : 2160.00,
+      "unit_discount_price" : null,
+      "unit_origin_price" : 2160.00,
+      "volume_prices" : [ {
+        "price" : 2160.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 1843.00,
+        "unit_origin_price" : 2160.00
+      } ]
+    } ],
+    "allow_quote_requests" : false,
+    "applicable_pricing" : {
+      "channel_code" : null,
+      "discount_end_date" : "2019-02-07T07:59:59Z",
+      "discount_start_date" : "2019-02-02T08:00:00Z",
+      "price" : 2160.00,
+      "unit_discount_price" : null,
+      "unit_origin_price" : 2160.00,
+      "volume_prices" : [ {
+        "price" : 2160.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 1843.00,
+        "unit_origin_price" : 2160.00
+      } ]
+    },
+    "category_code" : "CAT_1002",
+    "category_label" : "Laptops",
+    "channels" : [ "INIT" ],
+    "currency_iso_code" : "CAD",
+    "description" : null,
+    "discount" : {
+      "discount_price" : 1843.00,
+      "end_date" : "2019-02-07T07:59:59Z",
+      "origin_price" : 2160.00,
+      "ranges" : [ {
+        "price" : 1843.00,
+        "quantity_threshold" : 1
+      } ],
+      "start_date" : "2019-02-02T08:00:00Z"
+    },
+    "logistic_class" : {
+      "code" : "SMALL",
+      "label" : "Small Box (0.5 - 3.0kg/1.1 to 6.6Lbs)"
+    },
+    "min_shipping_price" : 0.00,
+    "min_shipping_price_additional" : 0.00,
+    "min_shipping_type" : "M",
+    "min_shipping_zone" : "BCLocal",
+    "offer_additional_fields" : [ {
+      "code" : "manufacturer-warranty",
+      "type" : "REGEX",
+      "value" : "1095"
+    } ],
+    "offer_id" : 5820533,
+    "price" : 2160.00,
+    "price_additional_info" : null,
+    "product_references" : [ {
+      "reference" : "628504782354",
+      "reference_type" : "UPC-A"
+    } ],
+    "product_sku" : "13363218",
+    "product_title" : "Lenovo ThinkPad T480, 14\" Full-HD IPS, 8th Gen Core i5, 16GB RAM, 500GB SSD, Windows 10 Pro",
+    "quantity" : 0,
+    "shop_sku" : "CSDL18035",
+    "state_code" : "11",
+    "total_price" : 2160.00
+  }, {
+    "active" : true,
+    "all_prices" : [ {
+      "channel_code" : null,
+      "discount_end_date" : "2019-03-01T07:59:59Z",
+      "discount_start_date" : "2019-02-07T08:00:00Z",
+      "price" : 2187.00,
+      "unit_discount_price" : 2187.00,
+      "unit_origin_price" : 2667.00,
+      "volume_prices" : [ {
+        "price" : 2187.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 2187.00,
+        "unit_origin_price" : 2667.00
+      } ]
+    } ],
+    "allow_quote_requests" : false,
+    "applicable_pricing" : {
+      "channel_code" : null,
+      "discount_end_date" : "2019-03-01T07:59:59Z",
+      "discount_start_date" : "2019-02-07T08:00:00Z",
+      "price" : 2187.00,
+      "unit_discount_price" : 2187.00,
+      "unit_origin_price" : 2667.00,
+      "volume_prices" : [ {
+        "price" : 2187.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 2187.00,
+        "unit_origin_price" : 2667.00
+      } ]
+    },
+    "category_code" : "CAT_1002",
+    "category_label" : "Laptops",
+    "channels" : [ "INIT" ],
+    "currency_iso_code" : "CAD",
+    "description" : null,
+    "discount" : {
+      "discount_price" : 2187.00,
+      "end_date" : "2019-03-01T07:59:59Z",
+      "origin_price" : 2667.00,
+      "ranges" : [ {
+        "price" : 2187.00,
+        "quantity_threshold" : 1
+      } ],
+      "start_date" : "2019-02-07T08:00:00Z"
+    },
+    "logistic_class" : {
+      "code" : "SMALL",
+      "label" : "Small Box (0.5 - 3.0kg/1.1 to 6.6Lbs)"
+    },
+    "min_shipping_price" : 0.00,
+    "min_shipping_price_additional" : 0.00,
+    "min_shipping_type" : "M",
+    "min_shipping_zone" : "BCLocal",
+    "offer_additional_fields" : [ {
+      "code" : "manufacturer-warranty",
+      "type" : "REGEX",
+      "value" : "1095"
+    } ],
+    "offer_id" : 5657665,
+    "price" : 2187.00,
+    "price_additional_info" : null,
+    "product_references" : [ {
+      "reference" : "628504782088",
+      "reference_type" : "UPC-A"
+    } ],
+    "product_sku" : "13329649",
+    "product_title" : "Lenovo ThinkPad T580, 15.6\" Full-HD, 8th Gen Core i5, 16GB DDR4, 1 TB SSD, Windows 10pro",
+    "quantity" : 80,
+    "shop_sku" : "CSDL18008",
+    "state_code" : "11",
+    "total_price" : 2187.00
+  }, {
+    "active" : true,
+    "all_prices" : [ {
+      "channel_code" : null,
+      "discount_end_date" : "2019-03-01T07:59:59Z",
+      "discount_start_date" : "2019-02-07T08:00:00Z",
+      "price" : 2447.00,
+      "unit_discount_price" : 2447.00,
+      "unit_origin_price" : 2976.00,
+      "volume_prices" : [ {
+        "price" : 2447.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 2447.00,
+        "unit_origin_price" : 2976.00
+      } ]
+    } ],
+    "allow_quote_requests" : false,
+    "applicable_pricing" : {
+      "channel_code" : null,
+      "discount_end_date" : "2019-03-01T07:59:59Z",
+      "discount_start_date" : "2019-02-07T08:00:00Z",
+      "price" : 2447.00,
+      "unit_discount_price" : 2447.00,
+      "unit_origin_price" : 2976.00,
+      "volume_prices" : [ {
+        "price" : 2447.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 2447.00,
+        "unit_origin_price" : 2976.00
+      } ]
+    },
+    "category_code" : "CAT_1002",
+    "category_label" : "Laptops",
+    "channels" : [ "INIT" ],
+    "currency_iso_code" : "CAD",
+    "description" : null,
+    "discount" : {
+      "discount_price" : 2447.00,
+      "end_date" : "2019-03-01T07:59:59Z",
+      "origin_price" : 2976.00,
+      "ranges" : [ {
+        "price" : 2447.00,
+        "quantity_threshold" : 1
+      } ],
+      "start_date" : "2019-02-07T08:00:00Z"
+    },
+    "logistic_class" : {
+      "code" : "SMALL",
+      "label" : "Small Box (0.5 - 3.0kg/1.1 to 6.6Lbs)"
+    },
+    "min_shipping_price" : 0.00,
+    "min_shipping_price_additional" : 0.00,
+    "min_shipping_type" : "M",
+    "min_shipping_zone" : "BCLocal",
+    "offer_additional_fields" : [ {
+      "code" : "manufacturer-warranty",
+      "type" : "REGEX",
+      "value" : "1095"
+    } ],
+    "offer_id" : 5659708,
+    "price" : 2447.00,
+    "price_additional_info" : null,
+    "product_references" : [ {
+      "reference" : "628504782101",
+      "reference_type" : "UPC-A"
+    } ],
+    "product_sku" : "13329753",
+    "product_title" : "Lenovo Thinkpad P52s, 15.6\" Full-HD, 8th Gen Intel Core i7, 16GB RAM, 500GB SSD, Windows 10Pro",
+    "quantity" : 80,
+    "shop_sku" : "CSDL18010",
+    "state_code" : "11",
+    "total_price" : 2447.00
+  }, {
+    "active" : false,
+    "all_prices" : [ {
+      "channel_code" : null,
+      "discount_end_date" : "2019-02-07T07:59:59Z",
+      "discount_start_date" : "2019-02-02T08:00:00Z",
+      "price" : 2461.00,
+      "unit_discount_price" : null,
+      "unit_origin_price" : 2461.00,
+      "volume_prices" : [ {
+        "price" : 2461.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 2103.00,
+        "unit_origin_price" : 2461.00
+      } ]
+    } ],
+    "allow_quote_requests" : false,
+    "applicable_pricing" : {
+      "channel_code" : null,
+      "discount_end_date" : "2019-02-07T07:59:59Z",
+      "discount_start_date" : "2019-02-02T08:00:00Z",
+      "price" : 2461.00,
+      "unit_discount_price" : null,
+      "unit_origin_price" : 2461.00,
+      "volume_prices" : [ {
+        "price" : 2461.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 2103.00,
+        "unit_origin_price" : 2461.00
+      } ]
+    },
+    "category_code" : "CAT_1002",
+    "category_label" : "Laptops",
+    "channels" : [ "INIT" ],
+    "currency_iso_code" : "CAD",
+    "description" : null,
+    "discount" : {
+      "discount_price" : 2103.00,
+      "end_date" : "2019-02-07T07:59:59Z",
+      "origin_price" : 2461.00,
+      "ranges" : [ {
+        "price" : 2103.00,
+        "quantity_threshold" : 1
+      } ],
+      "start_date" : "2019-02-02T08:00:00Z"
+    },
+    "logistic_class" : {
+      "code" : "SMALL",
+      "label" : "Small Box (0.5 - 3.0kg/1.1 to 6.6Lbs)"
+    },
+    "min_shipping_price" : 0.00,
+    "min_shipping_price_additional" : 0.00,
+    "min_shipping_type" : "M",
+    "min_shipping_zone" : "BCLocal",
+    "offer_additional_fields" : [ {
+      "code" : "manufacturer-warranty",
+      "type" : "REGEX",
+      "value" : "1095"
+    } ],
+    "offer_id" : 5820532,
+    "price" : 2461.00,
+    "price_additional_info" : null,
+    "product_references" : [ {
+      "reference" : "628504782361",
+      "reference_type" : "UPC-A"
+    } ],
+    "product_sku" : "13363219",
+    "product_title" : "Lenovo ThinkPad T480, 14\" Full-HD IPS, 8th Gen Core i5, 16GB RAM, 1 TB SSD, Windows 10 Pro",
+    "quantity" : 0,
+    "shop_sku" : "CSDL18036",
+    "state_code" : "11",
+    "total_price" : 2461.00
+  }, {
+    "active" : true,
+    "all_prices" : [ {
+      "channel_code" : null,
+      "discount_end_date" : "2019-03-01T07:59:59Z",
+      "discount_start_date" : "2019-02-07T08:00:00Z",
+      "price" : 2587.00,
+      "unit_discount_price" : 2587.00,
+      "unit_origin_price" : 3144.00,
+      "volume_prices" : [ {
+        "price" : 2587.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 2587.00,
+        "unit_origin_price" : 3144.00
+      } ]
+    } ],
+    "allow_quote_requests" : false,
+    "applicable_pricing" : {
+      "channel_code" : null,
+      "discount_end_date" : "2019-03-01T07:59:59Z",
+      "discount_start_date" : "2019-02-07T08:00:00Z",
+      "price" : 2587.00,
+      "unit_discount_price" : 2587.00,
+      "unit_origin_price" : 3144.00,
+      "volume_prices" : [ {
+        "price" : 2587.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 2587.00,
+        "unit_origin_price" : 3144.00
+      } ]
+    },
+    "category_code" : "CAT_1002",
+    "category_label" : "Laptops",
+    "channels" : [ "INIT" ],
+    "currency_iso_code" : "CAD",
+    "description" : null,
+    "discount" : {
+      "discount_price" : 2587.00,
+      "end_date" : "2019-03-01T07:59:59Z",
+      "origin_price" : 3144.00,
+      "ranges" : [ {
+        "price" : 2587.00,
+        "quantity_threshold" : 1
+      } ],
+      "start_date" : "2019-02-07T08:00:00Z"
+    },
+    "logistic_class" : {
+      "code" : "SMALL",
+      "label" : "Small Box (0.5 - 3.0kg/1.1 to 6.6Lbs)"
+    },
+    "min_shipping_price" : 0.00,
+    "min_shipping_price_additional" : 0.00,
+    "min_shipping_type" : "M",
+    "min_shipping_zone" : "BCLocal",
+    "offer_additional_fields" : [ {
+      "code" : "manufacturer-warranty",
+      "type" : "REGEX",
+      "value" : "1095"
+    } ],
+    "offer_id" : 5659724,
+    "price" : 2587.00,
+    "price_additional_info" : null,
+    "product_references" : [ {
+      "reference" : "628504782118",
+      "reference_type" : "UPC-A"
+    } ],
+    "product_sku" : "13329756",
+    "product_title" : "Lenovo Thinkpad P52s, 15.6\" Full-HD, 8th Gen Intel Core i7, 32GB RAM, 500 GB SSD, Windows 10Pro",
+    "quantity" : 80,
+    "shop_sku" : "CSDL18011",
+    "state_code" : "11",
+    "total_price" : 2587.00
+  }, {
+    "active" : true,
+    "all_prices" : [ {
+      "channel_code" : null,
+      "discount_end_date" : "2019-03-01T07:59:59Z",
+      "discount_start_date" : "2019-02-07T08:00:00Z",
+      "price" : 2687.00,
+      "unit_discount_price" : 2687.00,
+      "unit_origin_price" : 3381.00,
+      "volume_prices" : [ {
+        "price" : 2687.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 2687.00,
+        "unit_origin_price" : 3381.00
+      } ]
+    } ],
+    "allow_quote_requests" : false,
+    "applicable_pricing" : {
+      "channel_code" : null,
+      "discount_end_date" : "2019-03-01T07:59:59Z",
+      "discount_start_date" : "2019-02-07T08:00:00Z",
+      "price" : 2687.00,
+      "unit_discount_price" : 2687.00,
+      "unit_origin_price" : 3381.00,
+      "volume_prices" : [ {
+        "price" : 2687.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 2687.00,
+        "unit_origin_price" : 3381.00
+      } ]
+    },
+    "category_code" : "CAT_1002",
+    "category_label" : "Laptops",
+    "channels" : [ "INIT" ],
+    "currency_iso_code" : "CAD",
+    "description" : null,
+    "discount" : {
+      "discount_price" : 2687.00,
+      "end_date" : "2019-03-01T07:59:59Z",
+      "origin_price" : 3381.00,
+      "ranges" : [ {
+        "price" : 2687.00,
+        "quantity_threshold" : 1
+      } ],
+      "start_date" : "2019-02-07T08:00:00Z"
+    },
+    "logistic_class" : {
+      "code" : "SMALL",
+      "label" : "Small Box (0.5 - 3.0kg/1.1 to 6.6Lbs)"
+    },
+    "min_shipping_price" : 0.00,
+    "min_shipping_price_additional" : 0.00,
+    "min_shipping_type" : "M",
+    "min_shipping_zone" : "BCLocal",
+    "offer_additional_fields" : [ {
+      "code" : "manufacturer-warranty",
+      "type" : "REGEX",
+      "value" : "1095"
+    } ],
+    "offer_id" : 5657666,
+    "price" : 2687.00,
+    "price_additional_info" : null,
+    "product_references" : [ {
+      "reference" : "628504782095",
+      "reference_type" : "UPC-A"
+    } ],
+    "product_sku" : "13329650",
+    "product_title" : "Lenovo ThinkPad T580, 15.6\" Full-HD, 8th Gen Core i5, 16GB DDR4, 2 TB SSD, Windows 10pro",
+    "quantity" : 80,
+    "shop_sku" : "CSDL18009",
+    "state_code" : "11",
+    "total_price" : 2687.00
+  }, {
+    "active" : true,
+    "all_prices" : [ {
+      "channel_code" : null,
+      "discount_end_date" : "2019-03-01T07:59:59Z",
+      "discount_start_date" : "2019-02-07T08:00:00Z",
+      "price" : 2977.00,
+      "unit_discount_price" : 2977.00,
+      "unit_origin_price" : 3424.00,
+      "volume_prices" : [ {
+        "price" : 2977.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 2977.00,
+        "unit_origin_price" : 3424.00
+      } ]
+    } ],
+    "allow_quote_requests" : false,
+    "applicable_pricing" : {
+      "channel_code" : null,
+      "discount_end_date" : "2019-03-01T07:59:59Z",
+      "discount_start_date" : "2019-02-07T08:00:00Z",
+      "price" : 2977.00,
+      "unit_discount_price" : 2977.00,
+      "unit_origin_price" : 3424.00,
+      "volume_prices" : [ {
+        "price" : 2977.00,
+        "quantity_threshold" : 1,
+        "unit_discount_price" : 2977.00,
+        "unit_origin_price" : 3424.00
+      } ]
+    },
+    "category_code" : "CAT_1002",
+    "category_label" : "Laptops",
+    "channels" : [ "INIT" ],
+    "currency_iso_code" : "CAD",
+    "description" : null,
+    "discount" : {
+      "discount_price" : 2977.00,
+      "end_date" : "2019-03-01T07:59:59Z",
+      "origin_price" : 3424.00,
+      "ranges" : [ {
+        "price" : 2977.00,
+        "quantity_threshold" : 1
+      } ],
+      "start_date" : "2019-02-07T08:00:00Z"
+    },
+    "logistic_class" : {
+      "code" : "SMALL",
+      "label" : "Small Box (0.5 - 3.0kg/1.1 to 6.6Lbs)"
+    },
+    "min_shipping_price" : 0.00,
+    "min_shipping_price_additional" : 0.00,
+    "min_shipping_type" : "M",
+    "min_shipping_zone" : "BCLocal",
+    "offer_additional_fields" : [ {
+      "code" : "manufacturer-warranty",
+      "type" : "REGEX",
+      "value" : "1095"
+    } ],
+    "offer_id" : 5659725,
+    "price" : 2977.00,
+    "price_additional_info" : null,
+    "product_references" : [ {
+      "reference" : "628504782125",
+      "reference_type" : "UPC-A"
+    } ],
+    "product_sku" : "13329759",
+    "product_title" : "Lenovo Thinkpad P52s, 15.6\" Full-HD, 8th Gen Intel Core i7, 32GB RAM, 1TB SSD, Windows 10Pro",
+    "quantity" : 80,
+    "shop_sku" : "CSDL18012",
+    "state_code" : "11",
+    "total_price" : 2977.00
+  } ],
+  "total_count" : 17
+}

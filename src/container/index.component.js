@@ -30,9 +30,10 @@ export default class Index extends Component {
           <table className="table table-striped" style={{ marginTop: 20 }}>
             <thead>
               <tr>
+                <th>SKU</th>
                 <th>Title</th>
-                <th>Description</th>
-                <th>id</th>
+                <th>Shopify-Qt</th>
+                <th>BestBuy-Qt</th>
                 <th colSpan="2">Action</th>
               </tr>
             </thead>

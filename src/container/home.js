@@ -7,13 +7,13 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <div class="jumbotron">
+        <div className="jumbotron">
           <h1>MarketUnity</h1>
           <p>
           <strong>Integration Platform </strong>for Online Marketplaces.
             <br /></p>
           <div>
-                  <img src={mlogos} responsive />
+                  <img alt="MarketUnity - Marketplaces Integration" src={mlogos} />
                 </div>
          
             <br />

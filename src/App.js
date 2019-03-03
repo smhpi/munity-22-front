@@ -6,6 +6,7 @@ import Create from './container/create.component'
 import Edit from './container/edit.component'
 import Index from './container/index.component'
 import Home from './container/home'
+import BbList from './container/bestbuy'
 
 import logo from "./images/logo.png";
 
@@ -30,15 +31,19 @@ class App extends Component {
               <li className="nav-item">
                 <Link to={'/list'} className="nav-link">List</Link>
               </li>
+              <li className="nav-item">
+                <Link to={'/bestbuy'} className="nav-link">BestBuy</Link>
+              </li>
             </ul>
           </div>
         </nav> <br/>
-        <h2></h2> <br/>
+        <br/>
         <Switch>
             <Route exact path='/' component={ Home } />
             <Route exact path='/create' component={ Create } />
             <Route path='/list/:id' component={ Edit } />
             <Route path='/list' component={ Index } />
+            <Route path='/bestbuy' component={ BbList } />
         </Switch>
       </div>
     </Router>
